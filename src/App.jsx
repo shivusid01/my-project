@@ -7,16 +7,16 @@ import AppRoutes from './routes';
 function App() {
   return (
     <Router>
-      <ThemeProvider>
-        <AuthProvider>
+      {/* <ThemeProvider>
+        <AuthProvider> */}
           <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
             <Navbar />
             <main className="container mx-auto">
               <AppRoutes />
             </main>
           </div>
-        </AuthProvider>
-      </ThemeProvider>
+        {/* </AuthProvider>
+      </ThemeProvider> */}
     </Router>
   );
 }
